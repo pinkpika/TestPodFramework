@@ -1,0 +1,22 @@
+{
+  "name": "TestPodFramework",
+  "version": "0.1.0",
+  "summary": "A short description of TestPodFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PinkPika/TestPodFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PinkPika": "tim801217@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PinkPika/TestPodFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestPodFramework/Classes/**/*"
+}
