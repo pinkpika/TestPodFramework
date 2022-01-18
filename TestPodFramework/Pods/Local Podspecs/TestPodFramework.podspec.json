@@ -1,0 +1,43 @@
+{
+  "name": "TestPodFramework",
+  "version": "0.1.0",
+  "summary": "A short description of TestPodFramework.",
+  "description": "TestPodFramework",
+  "homepage": "https://github.com/pinkpika/TestPodFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PinkPika": "tim801217@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:pinkpika/TestPodFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestPodFramework/TestPodFramework/Classes/**/*",
+  "resource_bundles": {
+    "TestPodFramework": [
+      "TestPodFramework/TestPodFramework/Classes/**/*.{xib,storyboard}",
+      "TestPodFramework/TestPodFramework/Assets/*.xcassets"
+    ]
+  },
+  "swift_versions": [
+    "4.2",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.4.4"
+    ]
+  },
+  "static_framework": true,
+  "swift_version": "5.4"
+}

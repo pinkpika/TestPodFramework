@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.4)
+  - TestPodFramework (0.1.0):
+    - Alamofire (~> 5.4.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4.4)
+  - TestPodFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  TestPodFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  TestPodFramework: a5f05734d7d9f31b9eb0f3468e8a2788a356d31e
+
+PODFILE CHECKSUM: a7e94cd64f247fbe805c159a9371deeba4fbe127
+
+COCOAPODS: 1.11.2
